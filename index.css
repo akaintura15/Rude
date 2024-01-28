@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#books {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#books li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.message-container {
+    background-color: #DCF8C6;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+}
+
+#input-field-container {
+    display: flex;
+    align-items: center;
+}
+
+#input-field {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    padding-left: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#add-button {
+    width: 60px;
+    padding: 10px;
+    margin-left: 10px; /* Add margin to separate the button from the input field */
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    background-color: #45a049;
+}
+
+/* Optional: Add some media queries for responsiveness */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #input-field {
+        width: calc(100% - 20px);
+    }
+
+    #add-button {
+        width: 100%;
+        margin-left: 0; /* Reset margin for full width on smaller screens */
+    }
+}
