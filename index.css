@@ -1,58 +1,14 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 100%;
-    margin: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-#books {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow-y: auto;
-    max-height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-#books li {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-}
-
-.message-container {
-    background-color: #DCF8C6;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    border: 2px solid #fff;
-}
-
 .input-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 100px;
 }
 
 #input-field {
-    flex: 1; /* Take up remaining space */
-    padding: 10px;
+    flex: 1;
+    padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
@@ -63,7 +19,7 @@ h1 {
 }
 
 #add-button {
-    width: 100%;
+    width: 50%; /* Set width to 50% */
     padding: 10px;
     border: none;
     background-color: #4CAF50;
@@ -71,8 +27,4 @@ h1 {
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
-}
-
-#add-button:hover {
-    background-color: #45a049;
 }
