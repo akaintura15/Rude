@@ -47,10 +47,10 @@ h1 {
 
 .input-container {
     display: flex;
+    flex-direction: column; /* Stack items vertically */
 }
 
 #input-field {
-    flex: 1;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -62,33 +62,24 @@ h1 {
 }
 
 #add-button {
-    width: 60px;
+    width: 100%;
     padding: 10px;
-    margin-left: 10px;
     border: none;
     background-color: #4CAF50;
     color: #fff;
     border-radius: 20px;
     cursor: pointer;
+    margin-top: 10px; /* Add some space between the button and the input field */
 }
 
 #add-button:hover {
     background-color: #45a049;
 }
 
-/* Responsive Design */
+/* Optional: Add some media queries for responsiveness */
 @media (max-width: 600px) {
     .container {
         margin: 20px;
         padding: 10px;
-    }
-
-    #input-field {
-        width: calc(100% - 20px);
-    }
-
-    #add-button {
-        width: 100%;
-        margin-left: 0;
     }
 }
