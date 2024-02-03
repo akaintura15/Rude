@@ -30,7 +30,7 @@ h1 {
     padding: 10px;
     margin: 0 auto; /* Center the header */
     width: 100%; /* Set a specific width or use any other desired value */
-    z-index: 2;
+    z-index: 2; /* Ensure the header is on top */
 }
 
 #books {
@@ -45,16 +45,14 @@ h1 {
 }
 
 #books li {
-  
     background-color: #f9f9f9;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
-    font-size: 50px ;
+    font-size: 50px;
 }
 
 .message-container {
-    
     background-color: #DCF8C6;
     padding: 20px;
     border-radius: 10px;
@@ -100,7 +98,6 @@ h1 {
     align-items: center; /* Align content vertically in the button */
     justify-content: center; /* Align content horizontally in the button */
 }
-
 
 #add-button i {
     font-size: 50px; /* Adjust the font size of the icon */
