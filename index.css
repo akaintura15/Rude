@@ -54,7 +54,7 @@ h1 {
 }
 
 .message-container {
-    height: 10%;
+    
     background-color: #DCF8C6;
     padding: 20px;
     border-radius: 10px;
@@ -73,7 +73,7 @@ h1 {
 
 #input-field {
     font-size: 50px;
-    height: calc(100% - 40px); /* Adjust the height to match the button */
+    height: 100%; /* Adjust the height to match the button */
     flex: 1;
     padding: 15px;
     margin-top: 10px;
@@ -88,7 +88,7 @@ h1 {
 #add-button {
     font-size: 50px;
     height: 100%;
-    width: 10%;
+    width: 15%;
     padding: 20px;
     border: none;
     background-color: #4CAF50;
