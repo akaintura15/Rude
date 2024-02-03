@@ -110,6 +110,9 @@ h1 {
 
 /* Media query for smaller screens */
 @media (max-width: 480px) {
+    #books {
+        overflow-y: scroll; /* Always show scrollbar */
+    }
     .input-container {
         padding: 5px; /* Further reduce padding for smaller screens */
     }
