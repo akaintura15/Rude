@@ -18,6 +18,7 @@ html, body {
 }
 
 h1 {
+    position: fixed;
     text-align: center;
     color: #333;
     font-size: 50px ;
