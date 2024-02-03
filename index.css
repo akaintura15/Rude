@@ -67,6 +67,7 @@ h1 {
     font-size: 55px;
     padding: 10px; /* Adjust padding for smaller screens */
     border-radius: 20px;
+    height: 19%;
 }
 
 #input-field {
@@ -84,7 +85,7 @@ h1 {
 }
 
 #add-button {
-    font-size: 50px;
+    font-size: 60px;
     height: 100%;
     width: 15%;
     padding: 20px;
