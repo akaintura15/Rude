@@ -9,7 +9,7 @@ html, body {
 
 .container {
     max-width: 100%;
-    height: 70%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -19,7 +19,6 @@ html, body {
 }
 
 h1 {
-    
     text-align: center;
     color: #333;
     font-size: 50px;
@@ -64,21 +63,18 @@ h1 {
 }
 
 .input-container {
-    
-   
-    font-size: 55px;
-   
+    bottom: 0;
     display: flex;
-    flex-direction: column;
+    align-items: center; /* Align items vertically in the flex container */
+    font-size: 55px;
     padding: 10px; /* Adjust padding for smaller screens */
     border-radius: 20px;
 }
 
 #input-field {
-    position: bottom;
-    font-size:50px;
-    height: 20%;
-    width: 100%;
+    font-size: 50px;
+    height: calc(100% - 40px); /* Adjust the height to match the button */
+    flex: 1;
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -90,17 +86,21 @@ h1 {
 }
 
 #add-button {
-    position: bottom;
-    height: 20%;
-    width: 100%;
-    padding: 10px;
+    font-size: 50px;
+    height: 100%;
+    width: 10%;
+    padding: 20px;
     border: none;
     background-color: #4CAF50;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 50%;
     cursor: pointer;
-    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center; /* Align content vertically in the button */
+    justify-content: center; /* Align content horizontally in the button */
 }
+
 
 #add-button i {
     font-size: 50px; /* Adjust the font size of the icon */
