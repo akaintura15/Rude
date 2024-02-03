@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    width: 100%;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     margin: 0;
@@ -12,16 +13,25 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    position: fixed;
+    
     text-align: center;
     color: #333;
-    font-size: 50px ;
+    font-size: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 auto; /* Center the header */
+    width: 100%; /* Set a specific width or use any other desired value */
+    z-index: 2;
 }
 
 #books {
@@ -54,8 +64,10 @@ h1 {
 }
 
 .input-container {
+    
+   
     font-size: 55px;
-    height: 40%;
+   
     display: flex;
     flex-direction: column;
     padding: 10px; /* Adjust padding for smaller screens */
@@ -63,6 +75,7 @@ h1 {
 }
 
 #input-field {
+    position: bottom;
     font-size:50px;
     height: 20%;
     width: 100%;
@@ -77,6 +90,7 @@ h1 {
 }
 
 #add-button {
+    position: bottom;
     height: 20%;
     width: 100%;
     padding: 10px;
